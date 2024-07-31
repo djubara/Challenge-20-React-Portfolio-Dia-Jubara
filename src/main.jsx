@@ -8,36 +8,41 @@ import Footer from './Footer.jsx'
 import Portfolio from './Portfolio.jsx'
 import Contact from './Contact.jsx'
 import Resume from './Resume.jsx'
+import App from './App.jsx'
 
 
 const router = createBrowserRouter(
+
   [
     {
-      path: '/',
+      path: "/",
+      element: <App />,
+      children: [
+        {
+          path: '/',
 
-      element: <AboutMe />,
-    },
-    {
-      path: '/portfolio',
-      element: <Portfolio />,
-    },
-    {
-      path: '/contact',
-      element: <Contact />,
-    },
-    {
-      path: '/resume',
-      element: <Resume />,
-    }
+          element: <AboutMe />,
+        },
+        {
+          path: '/portfolio',
+          element: <Portfolio />,
 
-
+        },
+        {
+          path: '/contact',
+          element: <Contact />,
+        },
+        {
+          path: '/resume',
+          element: <Resume />,
+        }
+      ]
+    },
   ]
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
     <RouterProvider router={router} />
-    <Footer />
   </React.StrictMode>,
 )
