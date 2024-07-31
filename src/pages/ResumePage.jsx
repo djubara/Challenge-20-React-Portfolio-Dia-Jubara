@@ -1,5 +1,5 @@
 
-function Resume() {
+function ResumePage() {
     return (
         <div className="p-4">
             <h1>Resume</h1>
@@ -75,4 +75,4 @@ function Resume() {
     );
 }
 
-export default Resume;
+export default ResumePage;

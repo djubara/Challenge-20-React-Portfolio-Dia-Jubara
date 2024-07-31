@@ -1,6 +1,6 @@
 import "./assets/portfolio.css";
 import { projects } from "./assets/projectsDesc";
-import Project from "./Project";
+import Project from "./components/Project";
 
 
 function Portfolio() {

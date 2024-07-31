@@ -1,6 +1,6 @@
-import "./assets/contact.css";
+import "../assets/contact.css";
 
-function Contact() {
+function ContactPage() {
     return (
         <div className="p-4">
             <h1>Contact</h1>
@@ -25,4 +25,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default ContactPage;

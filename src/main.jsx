@@ -1,13 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import AboutMe from './AboutMe.jsx'
-import Header from './Header.jsx'
+import AboutMe from './pages/AboutMePage.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Footer.jsx'
 import Portfolio from './Portfolio.jsx'
-import Contact from './Contact.jsx'
-import Resume from './Resume.jsx'
+import Contact from './pages/ContactPage.jsx'
+import Resume from './pages/ResumePage.jsx'
 import App from './App.jsx'
 
 
