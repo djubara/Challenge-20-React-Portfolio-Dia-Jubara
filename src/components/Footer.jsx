@@ -2,7 +2,7 @@
 
 function Footer() {
     return (
-        <div className="d-flex justify-content-center align-items-center gap-2">
+        <div className="d-flex justify-content-center align-items-center gap-2 bg-body-secondary">
             {/* github link */}
             <a href="https://github.com/djubar" target="_blank">GitHub</a>
             {/* linkedin link */}

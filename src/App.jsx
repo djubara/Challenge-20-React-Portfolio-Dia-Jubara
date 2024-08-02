@@ -9,7 +9,9 @@ export default function App() {
     return (
         <>
             <Header />
-            <Outlet />
+            <div className="p-4" style={{ minHeight: "100vh" }}>
+                <Outlet />
+            </div>
             <Footer />
         </>
     )

@@ -1,10 +1,13 @@
 
 export default function ResumePage() {
     return (
-        <div className="p-4">
+        <div className="">
             <h1>Resume</h1>
-            <a href="" target="_blank">Download my resume</a>
-            <section>
+            <a href="https://drive.google.com/uc?export=download&id=1uJhOb8diRQE3O4tzNWndUr1zAzuIQ-Gy">Download my resume</a>
+            {/* https://drive.google.com/uc?export=download&id=1uJhOb8diRQE3O4tzNWndUr1zAzuIQ-Gy */}
+
+            <br />
+            <section className="pt-4">
                 <h3>Front-End</h3>
                 <ul>
                     <li>HTML</li>
