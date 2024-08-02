@@ -1,6 +1,6 @@
 import "../assets/contact.css";
 
-function ContactPage() {
+export default function ContactPage() {
     return (
         <div className="p-4">
             <h1>Contact</h1>
@@ -24,5 +24,3 @@ function ContactPage() {
         </div>
     );
 }
-
-export default ContactPage;

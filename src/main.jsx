@@ -1,12 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import AboutMe from './pages/AboutMePage.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Portfolio from './Portfolio.jsx'
-import Contact from './pages/ContactPage.jsx'
-import Resume from './pages/ResumePage.jsx'
+import { projects } from './assets/projectsDesc.js';
+
+// components
 import App from './App.jsx'
+import PortfolioGallery from './PortfolioGallery.jsx'
+
+// page components
+import ContactPage from './pages/ContactPage.jsx'
+import ResumePage from './pages/ResumePage.jsx'
+import AboutMePage from './pages/AboutMePage.jsx'
+import PortfolioPage from './pages/PortfolioPage.jsx';
+import ProjectPage from './pages/ProjectPage.jsx';
 
 
 const router = createBrowserRouter(
@@ -17,22 +24,33 @@ const router = createBrowserRouter(
       element: <App />,
       children: [
         {
-          path: '/',
+          path: '',
 
-          element: <AboutMe />,
+          element: <AboutMePage />,
         },
         {
-          path: '/portfolio',
-          element: <Portfolio />,
-
+          path: 'contact',
+          element: <ContactPage />,
         },
         {
-          path: '/contact',
-          element: <Contact />,
+          path: 'resume',
+          element: <ResumePage />,
         },
         {
-          path: '/resume',
-          element: <Resume />,
+          path: 'portfolio',
+          element: <PortfolioPage />,
+          children: [
+            {
+              path: '',
+              element: <PortfolioGallery />,
+            },
+            ...projects.map((project) => {
+              return {
+                path: project.urlName,
+                element: <ProjectPage project={project} />,
+              }
+            })
+          ]
         }
       ]
     },
