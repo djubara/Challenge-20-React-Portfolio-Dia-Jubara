@@ -15,7 +15,7 @@ export const projects = [
     {
         name: "Parkreation",
         urlName: "parkreation",
-        thumbnail: "https://github.com/djubara/Parkreation/blob/main/public/images/homepage.png?raw=true",
+        thumbnail: "https://i.imgur.com/Y0LH4mP.gif",
         repoUrl: "",
         deployedUrl: "",
         description: "",
