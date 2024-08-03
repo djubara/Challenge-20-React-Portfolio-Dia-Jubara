@@ -1,7 +1,9 @@
+import { Image } from "react-bootstrap"
 
 export default function ProjectPage(props) {
     return (
         <div className="gap-2">
+            <Image src={props.project.thumbnail} fluid className="pb-3" />
             <section>
                 <h2>{props.project.name}</h2>
                 <p>{props.project.description}</p>
