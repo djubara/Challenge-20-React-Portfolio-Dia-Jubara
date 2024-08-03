@@ -5,7 +5,7 @@ export const projects = [
     {
         name: "Date Night",
         urlName: "date-night",
-        thumbnail: "",
+        thumbnail: "https://github.com/djubara/Challenge-20-React-Portfolio-Dia-Jubara/blob/main/assets/dateNight.gif?raw=true",
         repoUrl: "",
         deployedUrl: "",
         description: `Have you ever been "Netflix and Chill" in with your partner and been overcome with the crushing existential dread of decision paralysis? Date Night looks to alleviate that anxiety by randomizing the selection of movie, and cocktail for the evening!
@@ -15,7 +15,43 @@ export const projects = [
     {
         name: "Parkreation",
         urlName: "parkreation",
-        thumbnail: "https://i.imgur.com/Y0LH4mP.gif",
+        thumbnail: "https://github.com/djubara/Challenge-20-React-Portfolio-Dia-Jubara/blob/main/assets/parkreation.gif?raw=true",
+        repoUrl: "",
+        deployedUrl: "",
+        description: "",
+        specification: ["JS", "HTML"]
+    },
+    {
+        name: "README.md Generator",
+        urlName: "readme-generator",
+        thumbnail: "https://github.com/djubara/Challenge-20-React-Portfolio-Dia-Jubara/blob/main/assets/readme_md.gif?raw=true",
+        repoUrl: "",
+        deployedUrl: "",
+        description: "",
+        specification: ["JS", "HTML"]
+    },
+    {
+        name: "README.md Generator",
+        urlName: "readme-generator",
+        thumbnail: "https://github.com/djubara/Challenge-20-React-Portfolio-Dia-Jubara/blob/main/assets/readme_md.gif?raw=true",
+        repoUrl: "",
+        deployedUrl: "",
+        description: "",
+        specification: ["JS", "HTML"]
+    },
+    {
+        name: "README.md Generator",
+        urlName: "readme-generator",
+        thumbnail: "https://github.com/djubara/Challenge-20-React-Portfolio-Dia-Jubara/blob/main/assets/readme_md.gif?raw=true",
+        repoUrl: "",
+        deployedUrl: "",
+        description: "",
+        specification: ["JS", "HTML"]
+    },
+    {
+        name: "README.md Generator",
+        urlName: "readme-generator",
+        thumbnail: "https://github.com/djubara/Challenge-20-React-Portfolio-Dia-Jubara/blob/main/assets/readme_md.gif?raw=true",
         repoUrl: "",
         deployedUrl: "",
         description: "",
