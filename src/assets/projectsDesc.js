@@ -5,7 +5,7 @@ export const projects = [
     {
         name: "Date Night",
         urlName: "date-night",
-        thumbnail: "https://i.imgur.com/YMqnPzl.gif",
+        thumbnail: "",
         repoUrl: "",
         deployedUrl: "",
         description: `Have you ever been "Netflix and Chill" in with your partner and been overcome with the crushing existential dread of decision paralysis? Date Night looks to alleviate that anxiety by randomizing the selection of movie, and cocktail for the evening!
