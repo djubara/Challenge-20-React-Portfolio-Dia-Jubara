@@ -19,7 +19,7 @@ export const projects = [
         repoUrl: "",
         deployedUrl: "",
         description: "Parkreation is your ultimate companion for exploring national parks across the United States. Whether you're a seasoned traveler or a novice adventurer, Parkreation lets you discover, track, and share your national park experiences like never before.",
-        specification: ["HTML", "Bootstrap", "JS", "PostgreSQL", "ORM", "Node", "Express", "MVC Pattern", "Handlebars", "Partials", "National Park Service API"]
+        specification: ["HTML", "Bootstrap", "JS", "PostgreSQL", "ORM", "Sequelize", "Node", "Express", "MVC Pattern", "Handlebars", "Partials", "National Park Service API"]
     },
     {
         name: "README.md Generator",
@@ -28,16 +28,16 @@ export const projects = [
         repoUrl: "",
         deployedUrl: "",
         description: "This application allows you to quickly and easily generate a README file by using a command-line input to generate one. This allows the project creator to devote more time working on the project.",
-        specification: ["HTML", "JS", "Node", "Inquirer", "Colors",]
+        specification: ["HTML", "JS", "Node", "Inquirer", "Colors"]
     },
     {
-        name: "Progressive Web App",
+        name: "Progressive Web App (PWA)",
         urlName: "pwa-app",
         thumbnail: "https://github.com/djubara/Challenge-20-React-Portfolio-Dia-Jubara/blob/main/assets/pwa.gif?raw=true",
         repoUrl: "",
         deployedUrl: "",
-        description: "",
-        specification: ["JS", "HTML"]
+        description: "This is a text editor that runs in the browser. The app is a single-page application based on PWA architecture. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.",
+        specification: ["HTML", "JS", "Node", "Nodemon", "Express", "PWA", "html-webpack-plugin", "webpack-pwa-manifest", "IndexedDB", "Service Workers", "Web Manifest"]
     },
     {
         name: "E-Commerce Backend",
@@ -46,7 +46,7 @@ export const projects = [
         repoUrl: "",
         deployedUrl: "",
         description: "",
-        specification: ["JS", "HTML"]
+        specification: ["HTML", "CSS", "JS", "Express", "Node", "ODM", "Mongoose", "MongoDB",]
     },
     {
         name: "Weather Dashboard",
@@ -54,8 +54,8 @@ export const projects = [
         thumbnail: "https://github.com/djubara/Challenge-20-React-Portfolio-Dia-Jubara/blob/main/assets/weather.gif?raw=true",
         repoUrl: "",
         deployedUrl: "",
-        description: "",
-        specification: ["JS", "HTML"]
+        description: '"This application displays a five day weather forecast for a city you type in the "Search for a City" field."',
+        specification: ["HTML", "CSS", "JS", "Web APIs", "Third-Party APIs", "Server-Side APIs", "OpenWeather API", "Google Fonts APIs", "Font Awesome APIs"]
     },
 
 ]
