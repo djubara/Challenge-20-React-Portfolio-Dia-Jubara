@@ -16,7 +16,7 @@ export default function AboutMePage() {
             </p>
 
             <section>
-                <p>Check out my Github or LinkedIn profile today!</p>
+                <p>Check out my GitHub or LinkedIn profile today!</p>
             </section>
         </div>
     );

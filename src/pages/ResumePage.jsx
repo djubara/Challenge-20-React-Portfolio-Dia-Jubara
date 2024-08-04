@@ -20,7 +20,7 @@ export default function ResumePage() {
                     <li>Tailwind CSS</li>
                     <li>Responsive Design</li>
                     <li>Progressive Web App (PWA)</li>
-                    <li>React</li>
+                    <li>Vite + React</li>
                 </ul>
             </section>
             <section>
@@ -28,7 +28,7 @@ export default function ResumePage() {
                 <ul>
                     <li>Node.js</li>
                     <li>Express.js</li>
-                    <li>SQL (mySQL, PostgreSQL)</li>
+                    <li>SQL (MS SQL, mySQL, PostgreSQL)</li>
                     <li>Object Relational Mapper (ORM)</li>
                     <li>NoSQL (MongoDB)</li>
                     <li>Object Document Mapper (ODM)</li>
@@ -39,7 +39,9 @@ export default function ResumePage() {
                 <ul>
                     <li>HTTP/HTTPS</li>
                     <li>Server-Side Rendering (SSR)</li>
+                    <li>Local Storage</li>
                     <li>Cookies</li>
+                    <li>Bcrypt</li>
                     <li>Session-Based Authentication</li>
                 </ul>
             </section>
