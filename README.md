@@ -56,7 +56,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 `
 
-  > ## Screenshots
+  > ## Application Screenshots
 
 ![image](./assets/aboutme.png)
 
@@ -69,10 +69,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 > ## Netlify Image
 
 ![image](./assets/netlifySiteOverview.png)
-
-> ## Netlify Logs
-
-![image](./)
 
   > ## Installation
 
