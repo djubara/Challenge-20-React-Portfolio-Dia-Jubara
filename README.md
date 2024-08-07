@@ -58,11 +58,17 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   > ## Screenshots
 
-![image](./)
+![image](./assets/aboutme.png)
+
+![image](./assets/portfolio.png)
+
+![image](./assets/contact.png)
+
+![image](./assets/resume.png)
 
 > ## Netlify Image
 
-![image](./)
+![image](./assets/netlifySiteOverview.png)
 
 > ## Netlify Logs
 
