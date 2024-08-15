@@ -72,8 +72,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   > ## Installation
 
-  1. Clone Repository. GitHub repo contains application code
-  2. Deploy the application to Render to get a live URL with build scripts
+  1. Clone Repository. GitHub repo contains the application code.
+  2. Deploy the application to Render to get a live URL with build scripts.
 
   > ## Usage
 
